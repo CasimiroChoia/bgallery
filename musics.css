@@ -1,0 +1,48 @@
+.capa {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.music {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+.state {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.titulo {
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.lirycs {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
